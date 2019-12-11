@@ -61,3 +61,18 @@
                 </div>
 
 	 `
+3.  对话框里的消息气泡
+     html示例代码
+	 `
+	 <div class="duihua" >
+                        <div class="xiaoxi"  ><span>这是一条消息</span></div>
+                    </div>
+	 `
+
+3.  遮罩层
+     html示例代码
+	 `
+	 <div class="zm-zhezhao">
+	 <!-- 自定义内容 -->
+	 </div>
+	 `

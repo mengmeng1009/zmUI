@@ -52,7 +52,7 @@ body {
     }
 
     .zm-daohang .zm-item-active {
-        background-color: #bbb;
+        color: #07C160;
     }
 
     .zm-daohang .zm-item > i {
@@ -69,3 +69,31 @@ body {
     .top-icon > i {
         font-size: 28px;
     }
+
+
+/*对话框，消息气泡*/
+
+.duihua .xiaoxi {
+    padding: 5px 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+/*遮罩层*/
+
+.zm-zhezhao {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index:500;
+    background-color: rgba(33,33,33,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
